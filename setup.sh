@@ -10,6 +10,6 @@ cd" >> .bashrc
 source ~/.bashrc
 wget https://github.com/mossaybo/getme/raw/getme-patch-1/geturl https://github.com/mossaybo/getme/raw/getme-patch-1/sendurl
 gpg -d geturl > getme && chmod +x getme
-gpg -d sendurl > getme && chmod +x sendme
+gpg -d sendurl > sendme && chmod +x sendme
 cp -l ~/{getme,sendme} /opt/conda/bin/
 echo READY
