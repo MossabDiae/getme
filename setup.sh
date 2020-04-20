@@ -7,7 +7,7 @@ alias nano='nano -c'
 alias hg='history | grep'
 alias f='find . -type f -iname'
 alias youtube-dl-mp3='youtube-dl --no-cache-dir -x --audio-format mp3'
-alias youtube-dl-fire='youtube-dl --external-downloader aria2c --external-downloader-args "-x 16 -s 16 -k 1M --file-allocation=none"'
+alias youtube-dl-fire='youtube-dl --external-downloader aria2c --external-downloader-args \"-x 16 -s 16 -k 1M --file-allocation=none\"'
 alias e=exit
 cd" >> .bashrc
 source ~/.bashrc
