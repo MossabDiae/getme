@@ -1,6 +1,6 @@
 cd ~/
 apt update
-apt install -y inetutils-ping net-tools nano aria2
+apt install -y inetutils-ping net-tools nano aria2 rtorrent
 pip install youtube-dl
 echo "alias ipe='curl ipinfo.io/ip'
 alias nano='nano -c'
