@@ -1,7 +1,7 @@
 cd ~/
 apt update
 apt install -y inetutils-ping net-tools nano aria2 rtorrent
-pip install youtube-dl
+pip install youtube-dl telegram-upload
 echo "alias ipe='curl ipinfo.io/ip'
 alias nano='nano -c'
 alias hg='history | grep'
