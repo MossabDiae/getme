@@ -16,3 +16,4 @@ gpg -d geturl > getme && chmod +x getme
 gpg -d sendurl > sendme && chmod +x sendme
 cp -l ~/{getme,sendme} /opt/conda/bin/
 echo READY
+bash
