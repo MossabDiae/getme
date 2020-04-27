@@ -1,6 +1,9 @@
 cd ~/
 apt update
-apt install -y inetutils-ping net-tools nano aria2 rtorrent
+apt install -y inetutils-ping net-tools nano aria2 rtorrent libmediainfo0v5 libzen0v5
+wget "https://mega.nz/linux/MEGAsync/xUbuntu_16.04/amd64/megacmd-xUbuntu_16.04_amd64.deb"
+dpkg -i megacmd-xUbuntu_16.04_amd64.deb
+#apt-get -y --fix-broken install
 pip install youtube-dl telegram-upload beautifulsoup4 mega.py
 echo "alias ipe='curl ipinfo.io/ip'
 alias nano='nano -c'
